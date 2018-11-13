@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import LeftColumn from "./LeftColumn";
 //import PropTypes from "prop-types";
 
 function App(){
@@ -8,7 +9,9 @@ function App(){
   return (
     <div style={styles}>
       <NavBar/>
+      <LeftColumn/>
     </div>
+
   );
 }
 
