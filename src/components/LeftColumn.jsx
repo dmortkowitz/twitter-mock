@@ -10,10 +10,10 @@ function LeftColumn(){
       <style jsx>{`
           height: 400px;
           width: 25%;
-          border: 2px solid yellow;
           position: absolute;
           left: 3%;
           overflow: visible;
+          margin-top: 2%;
 
 
       `}</style>

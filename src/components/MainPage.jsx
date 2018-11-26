@@ -8,7 +8,6 @@ function MainPage(){
   return (
     <div>
       <style jsx>{`
-        border: 2px solid blue;
         textAlign: 'center',
         display: flex;
 

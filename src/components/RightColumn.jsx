@@ -8,9 +8,10 @@ function RightColumn(){
       <style jsx>{`
           height: 400px;
           width: 25%;
-          border: 4px solid green;
           position: absolute;
           left: 72%;
+          margin-top: 2%;
+          background-color: white;
 
 
       `}</style>

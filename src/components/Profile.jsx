@@ -9,7 +9,7 @@ function Profile(){
     borderWidth: '2px',
     backgroundColor: '#2c97de',
     marginLeft: '1%',
-    marginTop: '2%',
+
     position: 'relative',
   };
   var profileLower = {
@@ -18,6 +18,7 @@ function Profile(){
     height: '100px',
     borderWidth: '2px',
     marginLeft: '1%',
+    backgroundColor: '#ffffff',
 
     textAlign: 'right',
   };
@@ -25,7 +26,7 @@ function Profile(){
     height: '80px',
     width: '80px',
     transform: 'translate(30px, 80px)',
-    borderRadius: '20px',
+    borderRadius: '90px',
     position: 'relative',
     border: '2px solid white',
   };
@@ -65,6 +66,7 @@ function Profile(){
     textAlign: 'left',
     lineHeight: '1.5',
     overflow: 'none',
+    backgroundColor: '#ffffff',
   };
 
   return (

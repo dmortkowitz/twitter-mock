@@ -4,10 +4,16 @@ import MainPage from './MainPage';
 //import PropTypes from "prop-types";
 
 function App(){
-  var styles = {
-  };
+
   return (
-    <div style={styles}>
+    <div>
+      <style global jsx>{`
+          body {
+            background-color: #e4ebef;
+          }
+
+
+      `}</style>
       <NavBar/>
       <MainPage/>
     </div>

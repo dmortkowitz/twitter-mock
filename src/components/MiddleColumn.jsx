@@ -1,21 +1,26 @@
 import React from 'react';
 
 import MiddleFeed from './MiddleFeed';
+import PostNewForm from './PostNewForm';
 //import PropTypes from "prop-types";
 
 function MiddleColumn(){
   return (
     <div>
       <style jsx>{`
-          height: 400px;
+          height: auto;
           width: 40%;
-          border: 2px solid black;
+          background-color: white;
           position: absolute;
-          left: 30%;
 
+          padding-bottom: 1%;
+          left: 29%;
+          margin-top: 2%;
 
       `}</style>
+    <PostNewForm />
       <MiddleFeed/>
+
     </div>
 
   );
