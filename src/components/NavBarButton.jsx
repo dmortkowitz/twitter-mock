@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function NavBarButton(){
   var styles = {
@@ -14,11 +14,11 @@ function NavBarButton(){
     marginLeft: '-1px',
     color: 'black',
     fontFamily: 'Helvetica',
-    }
+  };
 
-    var stylesContainer = {
-      marginLeft: '11px',
-    }
+  var stylesContainer = {
+    marginLeft: '11px',
+  };
 
   return (
     <div style={stylesContainer}>
@@ -26,7 +26,7 @@ function NavBarButton(){
       <div style={styles}>Notifications</div>
       <div style={styles}>Messages</div>
     </div>
-  )
+  );
 }
 
 export default NavBarButton;

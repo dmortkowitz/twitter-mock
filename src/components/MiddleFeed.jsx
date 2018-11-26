@@ -1,13 +1,18 @@
-import React from "react";
+import React from 'react';
 
 //import PropTypes from "prop-types";
 
 function MiddleFeed(){
   var styles = {
-  }
+  };
   return (
-    <div style={styles}>
+    <div>
+      <style jsx>{`
 
+
+
+      `}</style>
+    <p>MiddleFeed</p>
     </div>
 
   );

@@ -1,14 +1,20 @@
-import React from "react";
+import React from 'react';
 
-import MiddleFeed from "./MiddleFeed";
+import MiddleFeed from './MiddleFeed';
 //import PropTypes from "prop-types";
 
 function MiddleColumn(){
-  var styles = {
-  }
   return (
-    <div style={styles}>
+    <div>
+      <style jsx>{`
+          height: 400px;
+          width: 40%;
+          border: 2px solid black;
+          position: absolute;
+          left: 30%;
 
+
+      `}</style>
       <MiddleFeed/>
     </div>
 

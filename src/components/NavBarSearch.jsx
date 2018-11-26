@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function NavBarSearch(){
   var styles = {
@@ -15,7 +15,7 @@ function NavBarSearch(){
     top: '10px',
 
 
-  }
+  };
 
   var stylesSearch = {
     border: '4px solid #2c97de',
@@ -28,15 +28,15 @@ function NavBarSearch(){
     top: '10px',
     paddingRight: '150px',
     // marginLeft: '40px',
-  }
+  };
 
 
   return (
-  <div>
-    <div style={stylesSearch}>Search</div>
-    <div style={styles}>Tweet</div>
-  </div>
-  )
+    <div>
+      <div style={stylesSearch}>Search</div>
+      <div style={styles}>Tweet</div>
+    </div>
+  );
 }
 
 export default NavBarSearch;
