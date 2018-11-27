@@ -23,19 +23,16 @@ function Post(props){
           }
 
       `}</style>
-    <img src={BlankProfile} />
-    <h2>{props.name} {props.username} {props.time}</h2>
-    <p>{props.content}</p>
-
+    <ul>
+    <li><img src={BlankProfile} />
+    {props.content}</li>
+    </ul>
     </div>
 
   );
 }
 
 Post.propTypes = {
-  name: PropTypes.string,
-  username: PropTypes.string,
-  time: PropTypes.string,
   content: PropTypes.string,
 };
 

@@ -3,14 +3,12 @@ import PropTypes from 'prop-types';
 import BlankProfile from '../assets/images/blank-profile.png';
 
 function PostNewForm(props) {
-  let _names = null;
-  let _location = null;
-  let _issue = null;
-
+  let _content = null;
 
   function handleNewPostFormSubmission(event) {
-    event.preventDefault();
-      props.onNewPostCreation({content: _content.value, });
+      console.log(props);
+      event.preventDefault();
+      props.onNewPostCreation({content: _content.value});
       _content.value = '';
     }
   return (
@@ -30,15 +28,18 @@ function PostNewForm(props) {
         width: 10%;
         border: 2px solid #ffffff;
         border-radius: 90px;
-        
+        float: left;
 
       }
       `}</style>
     <img src={BlankProfile} />
       <form onSubmit={handleNewPostFormSubmission}>
         <input
+          type='text'
           id='content'
-          placeholder='What is on your mind?'/>
+          placeholder='What is on your mind?'
+          ref={(input) => {_content = input;}}/>
+        <button type='submit'>Tweet</button>
       </form>
     </div>
 

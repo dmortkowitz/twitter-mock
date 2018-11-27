@@ -18,7 +18,6 @@ function MiddleColumn(){
           margin-top: 2%;
 
       `}</style>
-    <PostNewForm />
       <MiddleFeed/>
 
     </div>
